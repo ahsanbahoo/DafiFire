@@ -3,14 +3,11 @@ import { createTheme } from "@mui/material";
 export const theme = createTheme({
   palette: {
     primary: {
-      main: "#FF7A00",
+      main: "#CF7BF4",
     },
     success: {
       main: "#fff"
     },
-    danger: {
-      main: 'green'
-    }
   },
   fontFamily: ["Roboto", "Helvetica", "Arial", "sans-serif"].join(","),
   typography: {

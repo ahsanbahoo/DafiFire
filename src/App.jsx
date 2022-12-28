@@ -1,12 +1,9 @@
 import React from "react";
-import About from './seekcoin/About'
-import Token from "./seekcoin/Token";
-import { Card } from "./seekcoin/Card";
-import ImgesFile from "./seekcoin/ImgesFile";
-import Leadership from "./seekcoin/Leadership ";
-import Footer from "./seekcoin/Footer";
-import Navbar from "./seekcoin/Navbar";
-import { MyRoadmap } from "./seekcoin/MyRoadmap";
+import About from './Dafi Fire/About'
+// import Leadership from "./seekcoin/Leadership ";
+// import Footer from "./seekcoin/Footer";
+import Navbar from "./Dafi Fire/Navbar";
+import Soultion from "./Dafi Fire/Soultion";
 
 
 
@@ -19,12 +16,9 @@ function App() {
 
                 <Navbar />
                 <About />
-                 <Card />
-                <Token />
-                <MyRoadmap/>
-                <Leadership />
-                <ImgesFile />
-                <Footer />
+                <Soultion />
+                {/* <Leadership />
+                <Footer /> */}
 
         </>
     );
