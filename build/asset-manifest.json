@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c4ae0fe2.css",
+    "main.js": "/static/js/main.8fc99eb1.js",
+    "static/media/Background.png": "/static/media/Background.e894c73552ce28dbbdd2.png",
+    "static/media/cardbackground.png": "/static/media/cardbackground.aba69d9ddaee721b3e50.png",
+    "static/media/officeman.png": "/static/media/officeman.9cf8b4de3bcf345f10d0.png",
+    "static/media/office.png": "/static/media/office.a72b768d4d90fead8f41.png",
+    "static/media/team1.png.png": "/static/media/team1.png.7019d26ba850b3074c07.png",
+    "static/media/team3.png.png": "/static/media/team3.png.843ca0ed4385a046fb49.png",
+    "static/media/team2.png.png": "/static/media/team2.png.f8b6793d8e9c9558fe90.png",
+    "static/media/team4.png.png": "/static/media/team4.png.d30ea812b55f08ba7243.png",
+    "static/media/coin.png": "/static/media/coin.77c53689ac6c696d0266.png",
+    "static/media/line.png": "/static/media/line.65349cc2ccb7c3abc760.png",
+    "index.html": "/index.html",
+    "main.c4ae0fe2.css.map": "/static/css/main.c4ae0fe2.css.map",
+    "main.8fc99eb1.js.map": "/static/js/main.8fc99eb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4ae0fe2.css",
+    "static/js/main.8fc99eb1.js"
+  ]
+}
