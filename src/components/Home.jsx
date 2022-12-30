@@ -54,10 +54,10 @@ function Home() {
                                         padding: '10px 50px',
                                     }}
                                 >
-                                    Join Now
+                                    Learn More
                                 </Button>
                             </Box>
-                            <Box paddingTop="20px">
+                            <Box paddingTop="20px" marginBottom='10px'>
                                 <a href="https://www.youtube.com/@ahsanjutt4076" rel="noreferrer" target="_blank" style={{ textDecoration: "none", color: '#fff', }}>
                                     <YouTubeIcon style={{
                                         fontSize: "38px",
@@ -81,6 +81,7 @@ function Home() {
                                         fontSize: "38px",
                                         cursor: "pointer",
                                         color: "white",
+                                        
                                     }} />
                                 </a>
 
@@ -88,7 +89,7 @@ function Home() {
                         </Grid>
                         <Grid item lg={4}>
                             <Stack>
-                                <img src={cardimg} alt="" />
+                                <img src={cardimg} alt=""  width='100%'/>
                             </Stack>
                         </Grid>
                     </Grid>

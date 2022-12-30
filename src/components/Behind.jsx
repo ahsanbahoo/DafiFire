@@ -11,7 +11,8 @@ function Behind() {
                     backgroundPosition: '100% 100%',
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
-                    padding: '150px 0'
+                    padding: '150px 0',
+                    width:'100%'
                 }}
             >
                 <Container>

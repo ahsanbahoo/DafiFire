@@ -9,7 +9,7 @@ function TokenPart2() {
             <Box sx={{ padding: '50px 0' }}>
                 <Container>
                     <Grid container alignItems="center">
-                        <Grid item lg={6} md={6} sm={6} >
+                        <Grid item lg={6} md={6} sm={12} mb={2}>
                             <Typography variant="h4" sx={{fontWeight:'400'}} color="#fff">
                                 WHAT ABOUT
                             </Typography>
@@ -27,8 +27,8 @@ function TokenPart2() {
                             decentralized into smart contracts on the Binance Smart Chain.
                             </Typography>
                         </Grid>
-                        <Grid item pt={4.5} lg={6} md={6} sm={6} textAlign='center'>
-                            <img src={people} alt="" style={{ borderRadius: '8px' }} />
+                        <Grid item pt={4.5} lg={6} md={6} sm={12} textAlign='center'>
+                            <img src={people} alt="" width='97%' style={{ borderRadius: '8px' }} />
                         </Grid>
                     </Grid>
                 </Container>

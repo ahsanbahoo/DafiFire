@@ -21,23 +21,23 @@ function Adds() {
                         Our Alliances
                     </Typography>
                     <Grid container pt={10} justifyContent='center' textAlign='center' columnSpacing={{ xl: 6, lg: 6, md: 6, sm: 6 }} rowSpacing={{ md: 5, sm: 5, xs: 7 }}>
-                        <Grid item lg={2} md={6}>
+                        <Grid item lg={2} md={4} sm={6}>
                             <img src={ add1} alt='' />
                         </Grid>
-                        <Grid item lg={2} md={6}>
+                        <Grid item lg={2} md={4} sm={6}>
                             <img src={ add2} alt='' />
 
                         </Grid>
-                        <Grid item lg={2} md={6}>
+                        <Grid item lg={2} md={4} sm={6}>
                             <img src={ add3} alt='' />
 
                         </Grid>
 
-                        <Grid item lg={2} md={6}>
+                        <Grid item lg={2} md={4} sm={6}>
                             <img src={add4 } alt='' />
 
                         </Grid>
-                        <Grid item lg={2} md={5}>
+                        <Grid item lg={2} md={4} sm={6}>
                             <img src={ add5} alt='' />
 
                         </Grid>

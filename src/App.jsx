@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Behind from "./components/Behind";
 import Swap from "./components/Swap";
 import Token from "./components/Token";
+import TokenNo2 from './components/TokenNO2'
 import CrestToken from '../src/components/CrestToken'
 import TokenPart2 from "./components/Tokenpart2";
 
@@ -24,6 +25,7 @@ function App() {
             <Soultion />
             <Project />
             <Token />
+            <TokenNo2 />
             <CrestToken />
             <TokenPart2 />
             <Plan />

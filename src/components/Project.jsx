@@ -45,7 +45,7 @@ function Project() {
                     </Box>
                     <Stack justifyContent='center'>
 
-                  <img src={map1} alt="" />  
+                  <img src={map1} alt="" width='100%'/>  
                     </Stack>
                 </Container>
 

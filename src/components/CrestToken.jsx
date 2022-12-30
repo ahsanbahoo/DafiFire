@@ -11,7 +11,7 @@ function CrestToken() {
                     <Box textAlign="center" pb={5}>
                         <Box display='flex' justifyContent='center' alignItems="center"  >
                             <img src={tag} alt='' height={80} />
-                            <Typography variant="h4" color='#fff' sx={{ fontWeight: '800' }}>
+                            <Typography variant="h4" color='#fff' sx={{ fontWeight: '600' }}>
                                 The Crest Token and Our Training Program
                             </Typography>
                         </Box>
@@ -24,10 +24,10 @@ function CrestToken() {
                         </Typography>
                     </Box>
                     <Grid container alignItems='center'>
-                        <Grid item lg={6} md={6} sm={6}>
-                            <img src={man} alt="" style={{ borderRadius: '8px' }} />
+                        <Grid item lg={6} md={6} sm={12} mb={2}>
+                            <img src={man} alt="" width='97%' style={{ borderRadius: '8px' }} />
                         </Grid>
-                        <Grid item lg={6} md={6} sm={6}>
+                        <Grid item lg={6} md={6} sm={12}>
                             <Typography variant="h4" color='#fff'>
                                 Train and Grow
                             </Typography>

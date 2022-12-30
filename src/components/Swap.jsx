@@ -10,17 +10,17 @@ const buttons = [
     <Button key="one"
         style={{
             borderRadius: '30px 0  0 30px',
-            padding: '10px 50px', background: '#fff', color: 'black'
+            padding: '10px 30px', background: '#fff', color: 'black'
         }}
     >BUY</Button>,
     <Button key="two" style={{
-        padding: '0 50px', background: '#A29AB3', color: 'black'
+        padding: '0 30px', background: '#A29AB3', color: 'black'
     }}
     >SWAP</Button>,
     <Button key="three"
         style={{
             borderRadius: '0px 30px  30px 0px',
-            padding: '0 50px', background: '#fff', color: 'black'
+            padding: '0 10px', background: '#fff', color: 'black'
         }}
     >LIQUIDITY</Button>,
 ];
@@ -44,13 +44,13 @@ export default function GroupSizesColors() {
 
             <Container>
                 <Grid container pt={10} justifyContent='center' alignItems='center' columnSpacing={{ xl: 6, lg: 6, md: 6, sm: 6 }} rowSpacing={{ md: 5, sm: 5, xs: 7 }}>
-                    <Grid item lg={4} md={3}>
+                    <Grid item lg={4} md={4}>
                         <Typography variant='h3' pt={3} color='primary'>
                             THE<Typography variant="span" color="#4B50EC" > CREST+ </Typography>SWAP
                         </Typography>
                     </Grid>
 
-                    <Grid item lg={4} md={3}>
+                    <Grid item lg={4} md={4}>
                         <Box
                             sx={{
                                 border: '2.5px solid #212125',
@@ -110,7 +110,7 @@ export default function GroupSizesColors() {
                         </Box>
                     </Grid>
 
-                    <Grid item lg={4} md={3}>
+                    <Grid item lg={4} md={4}>
                         <img src={bigcoin} alt="" />
                     </Grid>
                 </Grid>

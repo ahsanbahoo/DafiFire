@@ -17,13 +17,17 @@ function About() {
                         </Typography>
                     </Box>
                     <Grid container>
-                        <Grid item lg={6} md={6} sm={6}>
-                            <img src={office2} alt="" style={{ borderRadius: '8px' }} />
+                        <Grid item lg={6} md={6} sm={12} mb={4} >
+                            <img src={office2} alt="" width='90%' style={{ borderRadius: '8px' }} />
                         </Grid>
-                        <Grid item lg={6} md={6} sm={6}>
+                        <Grid item lg={6} md={6} sm={12}>
                             <Typography variant="h6" color="#656776">
-                                •Although a huge revolution has arrived in the world of cryptocurrencies and tokens, it is also true that the use of cybercrime has prospered without limits and has affected one of the best industries, Network Marketing, and tokenization businesses have returned. where the creators only seek personal performance and abandon their own community.
-                                •Also the use of bad practices and misleading information to offer cryptocurrency or token projects where packages of worthless coins are sold that do not prosper in the market and multiple businesses, exchanges and bankrupt cryptocurrencies.
+                                •Although a huge revolution has arrived in the world of cryptocurrencies and tokens,
+                                 it is also true that the use of cybercrime has prospered without limits and has aff
+                                 ected one of the best industries, Network Marketing, and tokenization businesses have
+                                  returned. where the creators only seek personal performance and abandon their own community.
+                                •Also the use of bad practices and misleading information to offer cryptocurrency or 
+                                token projects where packages of worthless.
                                 •For this reason, the market has become more demanding when  a sustainable project.
 
                             </Typography>
