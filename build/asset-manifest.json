@@ -1,15 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.b7434c7f.css",
-    "main.js": "/static/js/main.c9804e2d.js",
+    "main.js": "/static/js/main.1152359f.js",
     "static/media/bgcard.png": "/static/media/bgcard.dee55ec4ba8e6f45b6cc.png",
     "static/media/ofice.png": "/static/media/ofice.8953ffdad2a9da39e195.png",
+    "static/media/people.png": "/static/media/people.ee5e1795c581acde46cd.png",
     "static/media/office2.png": "/static/media/office2.210c14d94ddfbcbdfaef.png",
     "static/media/office3.png": "/static/media/office3.e493c84bad92a3e35b42.png",
     "static/media/probgimg.png": "/static/media/probgimg.677476e2be714e71f120.png",
+    "static/media/man.png": "/static/media/man.f215d0bd502e4298ad55.png",
     "static/media/bgfooter.png": "/static/media/bgfooter.0725aa7ee1ea262147bb.png",
     "static/media/cardimg.png": "/static/media/cardimg.1d4c6c3e129635b39a77.png",
+    "static/media/card.png": "/static/media/card.25e87ab7465b8417df62.png",
     "static/media/bigcoin.png": "/static/media/bigcoin.ab437544d1f58599d0ac.png",
+    "static/media/cofee.png": "/static/media/cofee.a26031473937cf43d1c0.png",
     "static/media/map1.png": "/static/media/map1.56e9eb98635311d4b892.png",
     "static/media/biglogo.png": "/static/media/biglogo.b0b5cb074ff49fd83a84.png",
     "static/media/add5.png": "/static/media/add5.e27e52c822a2d446b42e.png",
@@ -18,10 +22,10 @@
     "static/media/add3.png": "/static/media/add3.16a318cebd87713350c5.png",
     "index.html": "/index.html",
     "main.b7434c7f.css.map": "/static/css/main.b7434c7f.css.map",
-    "main.c9804e2d.js.map": "/static/js/main.c9804e2d.js.map"
+    "main.1152359f.js.map": "/static/js/main.1152359f.js.map"
   },
   "entrypoints": [
     "static/css/main.b7434c7f.css",
-    "static/js/main.c9804e2d.js"
+    "static/js/main.1152359f.js"
   ]
 }
