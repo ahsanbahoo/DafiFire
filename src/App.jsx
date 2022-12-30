@@ -1,4 +1,3 @@
-
 import React from "react";
 import About from './components/About'
 import Navbar from "./components/Navbar";
@@ -10,8 +9,9 @@ import Adds from "./components/Adds";
 import Footer from "./components/Footer";
 import Behind from "./components/Behind";
 import Swap from "./components/Swap";
-
-
+import Token from "./components/Token";
+import CrestToken from '../src/components/CrestToken'
+import TokenPart2 from "./components/Tokenpart2";
 
 function App() {
 
@@ -23,6 +23,9 @@ function App() {
             <About />
             <Soultion />
             <Project />
+            <Token />
+            <CrestToken />
+            <TokenPart2 />
             <Plan />
             <Adds />
             <Swap />
