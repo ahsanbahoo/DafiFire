@@ -8,9 +8,3 @@
   }
   /* linear-gradient(90deg, #2745EA 2.94%, #CF7BF4 100%); */
 
-  @media (max-width: 600px){
-
-    .css-1hu9a1k-MuiButtonBase-root-MuiButton-root {
-        width: 0% !important;
-    }
-  }

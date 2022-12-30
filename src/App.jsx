@@ -1,11 +1,15 @@
+
 import React from "react";
-import About from './Dafi Fire/About'
-// import Leadership from "./seekcoin/Leadership ";
-// import Footer from "./seekcoin/Footer";
-import Navbar from "./Dafi Fire/Navbar";
-import Soultion from "./Dafi Fire/Soultion";
-
-
+import About from './components/About'
+import Navbar from "./components/Navbar";
+import Soultion from "./components/Soultion";
+import Home from "../src/components/Home"
+import Project from "./components/Project";
+import Plan from "./components/Plan";
+import Adds from "./components/Adds";
+import Footer from "./components/Footer";
+import Behind from "./components/Behind";
+import Swap from "./components/Swap";
 
 
 
@@ -14,12 +18,16 @@ function App() {
     return (
         <>
 
-                <Navbar />
-                <About />
-                <Soultion />
-                {/* <Leadership />
-                <Footer /> */}
-
+            <Navbar />
+            <Home />
+            <About />
+            <Soultion />
+            <Project />
+            <Plan />
+            <Adds />
+            <Swap />
+            <Behind />
+            <Footer />
         </>
     );
 }

@@ -15,7 +15,7 @@ import cardimg from '../assets/cardimg.png'
 function Home() {
     return (
         <>
-            <Box sx={{ padding: '90px 0px',}}>
+            <Box >
                 <Container maxWidth="xl">
                     <Grid container justifyContent='space-evenly' alignItems="center">
                         <Grid item lg={6} md={6}>
@@ -58,17 +58,30 @@ function Home() {
                                 </Button>
                             </Box>
                             <Box paddingTop="20px">
-                                <a href="https://www.youtube.com/@ahsanjutt4076" target="_blank" style={{ textDecoration: "none", color: '#fff', }}>
-                                    <YouTubeIcon />
+                                <a href="https://www.youtube.com/@ahsanjutt4076" rel="noreferrer" target="_blank" style={{ textDecoration: "none", color: '#fff', }}>
+                                    <YouTubeIcon style={{
+                                        fontSize: "38px",
+                                        cursor: "pointer",
+                                    }} />
                                 </a>
-                                <a href="https://www.instagram.com/ahsanjutt4594/" target="_blank" style={{ textDecoration: "none", color: '#fff', padding: '0 0 0 30px' }}>
-                                    <  InstagramIcon />
+                                <a href="https://www.instagram.com/ahsanjutt4594/" rel="noreferrer" target="_blank" style={{ textDecoration: "none", color: '#fff', padding: '0 0 0 30px' }}>
+                                    <  InstagramIcon style={{
+                                        fontSize: "38px",
+                                        cursor: "pointer",
+                                    }} />
                                 </a>
-                                <a href="https://twitter.com/ahsanbahoo03" target="_blank" style={{ textDecoration: "none", color: '#fff', padding: '0 30px 0 ' }}>
-                                    <  TwitterIcon />
+                                <a href="https://twitter.com/ahsanbahoo03" rel="noreferrer" target="_blank" style={{ textDecoration: "none", color: '#fff', padding: '0 30px 0 ' }}>
+                                    <  TwitterIcon style={{
+                                        fontSize: "38px",
+                                        cursor: "pointer",
+                                    }} />
                                 </a>
-                                <a href="https://www.facebook.com/profile.php?id=100053033737834" target="_blank" style={{ textDecoration: "none", color: '#fff' }}>
-                                    <  FacebookOutlinedIcon />
+                                <a href="https://www.facebook.com/profile.php?id=100053033737834" rel="noreferrer" target="_blank" style={{ textDecoration: "none", color: '#fff' }}>
+                                    <  FacebookOutlinedIcon style={{
+                                        fontSize: "38px",
+                                        cursor: "pointer",
+                                        color: "white",
+                                    }} />
                                 </a>
 
                             </Box>

@@ -122,9 +122,6 @@ export const theme = createTheme({
       lineHeight: 1.75,
       letterSpacing: "0.02857em",
       textTransform: "uppercase",
-      "@media(max-width:600px)": {
-        width: '100%'
-      }
     },
     caption: {
       fontFamily: ["Roboto", "Helvetica", "Arial", "sans-serif"].join(","),

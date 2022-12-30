@@ -18,16 +18,15 @@ import {
     useMediaQuery,
 } from "@mui/material";
 
-import MenuIcon from "@mui/icons-material/Menu";
-
-import Home from "./Home";
+// import MenuIcon from "@mui/icons-material/Menu";
+import NotesIcon from '@mui/icons-material/Notes';
 
 
 
 
 const Navbar = () => {
 
-    useMediaQuery("(max-width:1200px)");
+    useMediaQuery("max-width:1200px");
     const [openDrawer, setState] = useState(false);
 
     const toggleDrawer = (open) => (event) => {
@@ -160,79 +159,83 @@ const Navbar = () => {
     );
 
     return (
-        <Box>
+        <Box sx={{ flexGrow: 1 ,padding:"60px 0" }}>
             <AppBar position="fixed" color="transparent" elevation={0} >
-                <Toolbar sx={{ justifyContent: 'space-around', paddingTop: '20px' }}>
-                    <Container maxWidth="xl">
+                <Container maxWidth="xl">
+                    <Toolbar sx={{ paddingTop: '20px' }}>
                         <Hidden lgDown>
-                            <Box
-                                display="flex"
-                                justifyContent="space-between"
-                                alignItems="center"
-                            >
-                                <Box display="flex" >
-                                    <img src={logo} alt="" height="50" />
-                                    <Typography fontSize="15px" pt={2} pl={1}>
-                                        The Crest +
-                                    </Typography>
-                                </Box>
-                                <Box>
 
-                                    <a href="##" style={{ textDecoration: "none", color: "white" }}>
-                                        <Typography variant="h6">HOME</Typography>
-                                    </a>
-                                </Box>
-                                <Box>
-                                    <a href="##" style={{ textDecoration: "none", color: "white" }}>
-                                        <Typography variant="h6">SWAP</Typography>
-                                    </a>
-                                </Box>
-                                <Box>
-                                    <a href="##" style={{ textDecoration: "none", color: "white" }}>
-                                        <Typography variant="h6">THE CREST TOKEN</Typography>
-                                    </a>
-                                </Box>
-                                <Box>
-                                    <a href="##" style={{ textDecoration: "none", color: "white" }}>
-                                        <Typography variant="h6">HISTORY</Typography>
-                                    </a>
-                                </Box>
-                                <Box>
-                                    <a href="##" style={{ textDecoration: "none", color: "white" }}>
-                                        <Typography variant="h6">PLUS +</Typography>
-                                    </a>
-                                </Box>
-                            </Box>
+                        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                            <Stack direction='row'>
+
+                                <img src={logo} alt="" height="50" />
+                                <Typography fontSize="15px" pt={2} pl={1}>
+                                    The Crest +
+                                </Typography>
+                            </Stack>
+
+                        </Typography>
+                        <Stack direction='row' spacing={10}>
+                            <a href="##" style={{ textDecoration: "none", color: "white" }}>
+                                <Typography variant="h6">HOME</Typography>
+                            </a>
+
+                            <a href="##" style={{ textDecoration: "none", color: "white" }}>
+                                <Typography variant="h6">SWAP</Typography>
+                            </a>
+
+                            <a href="##" style={{ textDecoration: "none", color: "white" }}>
+                                <Typography variant="h6">THE CREST TOKEN</Typography>
+                            </a>
+
+                            <a href="##" style={{ textDecoration: "none", color: "white" }}>
+                                <Typography variant="h6">HISTORY</Typography>
+                            </a>
+
+
+                            <a href="##" style={{ textDecoration: "none", color: "white" }}>
+                                <Typography variant="h6">PLUS +</Typography>
+                            </a>
+                        </Stack>
+
 
 
                         </Hidden>
 
                         <Hidden lgUp>
-                            <Stack direction="row" justifyContent="space-between">
+                            <Typography component='div' display='flex' sx={{flexGrow:1}} justifyContent='space-between'>
+
                                 <a href="/#home" style={{ textDecoration: "none" }}>
-                                    <Box display="flex" >
+                         <Stack direction="row" >
+                                    
                                         <img src={logo} alt="" height="50" />
                                         <Typography fontSize="13px" pt={2} pl={1}>
                                             The Crest +
                                         </Typography>
-                                    </Box>
+                                    
+                            </Stack> 
                                 </a>
                                 <Button onClick={toggleDrawer(true)}>
 
-                                    <MenuIcon
+                                    <NotesIcon
                                         style={{
                                             fontSize: "38px",
                                             cursor: "pointer",
-                                            color: "white",
+                                            color: "linear-gradient(90deg, #2745EA 2.94%, #CF7BF4 100%);",
                                         }}
                                     />
                                 </Button>
-                            </Stack>
-                            <Paper style={{ background: "#0A2444" }}>
+                            </Typography>
+
+                            
+                      
+                            
+
+                            <Paper style={{ background: "linear-gradient(90deg, #2745EA 2.94%, #CF7BF4 100%)" }}>
                                 <SwipeableDrawer
                                     PaperProps={{
                                         sx: {
-                                            background: "#1C0D38 !important",
+                                            background: "linear-gradient(90deg, #2745EA 2.94%, #CF7BF4 100%) !important",
                                             justifyContent: "center",
                                         },
                                     }}
@@ -245,10 +248,9 @@ const Navbar = () => {
                                 </SwipeableDrawer>
                             </Paper>
                         </Hidden>
-                    </Container>
-                </Toolbar>
+                    </Toolbar>
+                </Container>
             </AppBar>
-            <Home />
         </Box >
     );
 }
